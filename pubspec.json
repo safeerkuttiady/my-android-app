@@ -1,0 +1,29 @@
+{
+  "name": "my_android_app",
+  "description": "An Android application with Firebase integration, location services, and ad monetization.",
+  "publish_to": "none",
+  "version": "1.0.0+1",
+  "environment": {
+    "sdk": ">=3.0.0 <4.0.0",
+    "flutter": ">=3.0.0"
+  },
+  "dependencies": {
+    "flutter": "^3.3.4",
+    "cupertino_icons": "^1.0.2",
+    "firebase_core": "^2.24.2",
+    "firebase_auth": "^4.15.3",
+    "cloud_firestore": "^4.13.6",
+    "firebase_analytics": "^10.8.0",
+    "google_maps_flutter": "^2.5.0",
+    "location": "^5.0.3",
+    "google_mobile_ads": "^3.0.0",
+    "provider": "^6.1.1"
+  },
+  "dev_dependencies": {
+    "flutter_test": "^3.3.0",
+    "flutter_lints": "^3.0.0"
+  },
+  "flutter": {
+    "uses-material-design": true
+  }
+}
